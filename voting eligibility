@@ -1,0 +1,19 @@
+# voting-eligiblity
+#include <stdio.h>
+int main()
+{
+  char name,d;
+  int age;
+  printf("enter the name:");
+  scanf("%c",&name);
+  printf("enter the age:");
+  scanf("%d",&age);
+  if((name=='d')&&(age>=18))
+  {
+      printf("you are eligible for voting");
+  }
+  else if(age<18){
+      printf("not eligible for voting");
+  }
+    return 0;
+}
